@@ -1,0 +1,20 @@
+
+<div class="container" style="margin-top: 100px">
+<div class="card mt-4" >
+
+
+  <img class="card-img-top img-fluid " src="{{viewProductList?.productImg}}" alt="" style="width:1000px;height: 600px ">
+  <div class="card-body mt-4">
+    <h3 class="card-title">{{viewProductList?.productName}}</h3>
+    <h4>${{viewProductList?.price}}</h4>
+    <a href="products/update-product/{{viewProductList?.id}}">Update Product</a> | <a (click)="delete()" href="/products" >Delete Product</a>
+    <p class="card-text"></p>
+    <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+    {{viewProductList?.rating}} stars
+  </div>
+</div>
+<!-- /.card -->
+
+</div>
+
+

@@ -1,0 +1,13 @@
+
+<a  href="/products" class="list-group-item bg-light mt-3 " >View All Products</a>
+<a  href="products/create-product" class="list-group-item bg-light" >Adding New Product</a>
+
+
+<div class="list-group " *ngFor="let cat of categoryList">
+
+  <a  href="products/category/{{cat.id}}" class="list-group-item bg-light" >{{cat.categoryName}}</a>
+
+
+</div>
+
+

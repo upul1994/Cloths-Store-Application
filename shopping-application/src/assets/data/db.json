@@ -1,0 +1,484 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "casual t-shirts",
+      "categoryId": 1,
+      "description": "product description goes here",
+      "price": 450,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/1.png",
+      "rating": 4,
+      "reviews": 120,
+      "vendor_name": "seller-1",
+      "warranty": 2,
+      "productColor": "red"
+    },
+    {
+      "id": 2,
+      "productName": "animated t-shirts",
+      "categoryId": 1,
+      "description": "product description goes here",
+      "price": 350,
+      "isAvailable": "no",
+      "productImg": "http://localhost:4200/assets/images/2.png",
+      "rating": 3,
+      "reviews": 450,
+      "vendor_name": "seller-2",
+      "warranty": 2,
+      "productColor": "red"
+    },
+    {
+      "id": 3,
+      "productName": "sport t-shirts",
+      "categoryId": 1,
+      "description": "product description goes here",
+      "price": 350,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/3.png",
+      "rating": 4,
+      "reviews": 600,
+      "vendor_name": "seller-3",
+      "warranty": 2,
+      "productColor": "red"
+    },
+    {
+      "id": 5,
+      "productName": "rock t-shirts",
+      "categoryId": 1,
+      "description": "product description goes here",
+      "price": 1500,
+      "isAvailable": "no",
+      "productImg": "http://localhost:4200/assets/images/5.png",
+      "rating": 4,
+      "reviews": 120,
+      "vendor_name": "seller-4",
+      "warranty": 2,
+      "productColor": "red"
+    },
+    {
+      "id": 6,
+      "productName": "normal t-shirts",
+      "categoryId": 1,
+      "description": "product description goes here",
+      "price": 1100,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/6.png",
+      "rating": 4,
+      "reviews": 120,
+      "vendor_name": "seller-4",
+      "warranty": 2,
+      "productColor": "brown"
+    },
+    {
+      "id": 7,
+      "productName": "cartoon t-shirts",
+      "categoryId": 1,
+      "description": "product description goes here",
+      "price": 1200,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/7.png",
+      "rating": 4,
+      "reviews": 120,
+      "vendor_name": "seller-4",
+      "warranty": 2,
+      "productColor": "green"
+    },
+    {
+      "id": 8,
+      "productName": "text t-shirts",
+      "categoryId": 1,
+      "description": "product description goes here",
+      "price": 1100,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/8.png",
+      "rating": 2,
+      "reviews": 170,
+      "vendor_name": "seller-4",
+      "warranty": 1,
+      "productColor": "red"
+    },
+    {
+      "id": 9,
+      "productName": "shark t-shirts",
+      "categoryId": 1,
+      "description": "product description goes here",
+      "price": 950,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/9.png",
+      "rating": 3,
+      "reviews": 170,
+      "vendor_name": "seller-4",
+      "warranty": 2,
+      "productColor": "green"
+    },
+    {
+      "id": 10,
+      "productName": "slim-fit denim",
+      "categoryId": 5,
+      "description": "product description goes here",
+      "price": 1500,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/34.png",
+      "rating": 4,
+      "reviews": 170,
+      "vendor_name": "seller-4",
+      "warranty": 2,
+      "productColor": "green"
+    },
+    {
+      "id": 11,
+      "productName": "regular-fit denim",
+      "categoryId": 5,
+      "description": "product description goes here",
+      "price": 1200,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/35.png",
+      "rating": 4,
+      "reviews": 170,
+      "vendor_name": "seller-4",
+      "warranty": 2,
+      "productColor": "green"
+    },
+    {
+      "id": 12,
+      "productName": "jeans denim",
+      "categoryId": 5,
+      "description": "product description goes here",
+      "price": 3200,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/36.png",
+      "rating": 4,
+      "reviews": 170,
+      "vendor_name": "seller-4",
+      "warranty": 2,
+      "productColor": "green"
+    },
+    {
+      "id": 13,
+      "productName": "ladies denim",
+      "categoryId": 5,
+      "description": "product description goes here",
+      "price": 2500,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/37.png",
+      "rating": 3,
+      "reviews": 170,
+      "vendor_name": "seller-4",
+      "warranty": 2,
+      "productColor": "green"
+    },
+    {
+      "id": 14,
+      "productName": "mini-shorts",
+      "categoryId": 6,
+      "description": "product description goes here",
+      "price": 1500,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/38.png",
+      "rating": 3,
+      "reviews": 170,
+      "vendor_name": "seller-4",
+      "warranty": 2,
+      "productColor": "green"
+    },
+    {
+      "id": 15,
+      "productName": "design-shorts",
+      "categoryId": 6,
+      "description": "product description goes here",
+      "price": 1700,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/39.png",
+      "rating": 3,
+      "reviews": 170,
+      "vendor_name": "seller-4",
+      "warranty": 2,
+      "productColor": "green"
+    },
+    {
+      "id": 16,
+      "productName": "small-shorts",
+      "categoryId": 6,
+      "description": "product description goes here",
+      "price": 1200,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/40.png",
+      "rating": 2,
+      "reviews": 170,
+      "vendor_name": "seller-4",
+      "warranty": 2,
+      "productColor": "green"
+    },
+    {
+      "id": 17,
+      "productName": "quality-shorts",
+      "categoryId": 6,
+      "description": "product description goes here",
+      "price": 2000,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/41.png",
+      "rating": 5,
+      "reviews": 170,
+      "vendor_name": "seller-4",
+      "warranty": 2,
+      "productColor": "green"
+    },
+    {
+      "id": 18,
+      "productName": "casual-shoes",
+      "categoryId": 4,
+      "description": "product description goes here",
+      "price": 3500,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/30.png",
+      "rating": 5,
+      "reviews": 170,
+      "vendor_name": "seller-4",
+      "warranty": 2,
+      "productColor": "green"
+    },
+    {
+      "id": 19,
+      "productName": "canvas-shoes",
+      "categoryId": 4,
+      "description": "product description goes here",
+      "price": 2500,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/31.png",
+      "rating": 4,
+      "reviews": 170,
+      "vendor_name": "seller-4",
+      "warranty": 2,
+      "productColor": "green"
+    },
+    {
+      "id": 20,
+      "productName": "office-shoes",
+      "categoryId": 4,
+      "description": "product description goes here",
+      "price": 2000,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/32.png",
+      "rating": 4,
+      "reviews": 170,
+      "vendor_name": "seller-4",
+      "warranty": 2,
+      "productColor": "brown"
+    },
+    {
+      "id": 21,
+      "productName": "leader-shoes",
+      "categoryId": 4,
+      "description": "product description goes here",
+      "price": 4500,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/33.png",
+      "rating": 5,
+      "reviews": 170,
+      "vendor_name": "seller-4",
+      "warranty": 2,
+      "productColor": "brown"
+    },
+    {
+      "id": 22,
+      "productName": "slim-fit shirts",
+      "categoryId": 3,
+      "description": "product description goes here",
+      "price": 3500,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/22.png",
+      "rating": 5,
+      "reviews": 170,
+      "vendor_name": "seller-4",
+      "warranty": 2,
+      "productColor": "brown"
+    },
+    {
+      "id": 23,
+      "productName": "light-shirts",
+      "categoryId": 3,
+      "description": "product description goes here",
+      "price": 3000,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/23.png",
+      "rating": 4,
+      "reviews": 170,
+      "vendor_name": "seller-4",
+      "warranty": 2,
+      "productColor": "brown"
+    },
+    {
+      "id": 24,
+      "productName": "check-shirts",
+      "categoryId": 3,
+      "description": "product description goes here",
+      "price": 1500,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/24.png",
+      "rating": 4,
+      "reviews": 170,
+      "vendor_name": "seller-4",
+      "warranty": 2,
+      "productColor": "brown"
+    },
+    {
+      "id": 25,
+      "productName": "weeding-shirts",
+      "categoryId": 3,
+      "description": "product description goes here",
+      "price": 4500,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/25.png",
+      "rating": 4,
+      "reviews": 170,
+      "vendor_name": "seller-4",
+      "warranty": 2,
+      "productColor": "brown"
+    },
+    {
+      "id": 26,
+      "productName": "coton-shirts",
+      "categoryId": 2,
+      "description": "product description goes here",
+      "price": 1500,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/26.png",
+      "rating": 4,
+      "reviews": 170,
+      "vendor_name": "seller-4",
+      "warranty": 2,
+      "productColor": "brown"
+    },
+    {
+      "id": 27,
+      "productName": "slim-fit shirts",
+      "categoryId": 2,
+      "description": "product description goes here",
+      "price": 2500,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/27.png",
+      "rating": 4,
+      "reviews": 170,
+      "vendor_name": "seller-4",
+      "warranty": 2,
+      "productColor": "brown"
+    },
+    {
+      "id": 28,
+      "productName": "regular-fit shirts",
+      "categoryId": 2,
+      "description": "product description goes here",
+      "price": 4500,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/28.png",
+      "rating": 4,
+      "reviews": 170,
+      "vendor_name": "seller-4",
+      "warranty": 2,
+      "productColor": "brown"
+    },
+    {
+      "id": 29,
+      "productName": "light-shirts",
+      "categoryId": 2,
+      "description": "product description goes here",
+      "price": 950,
+      "isAvailable": "yes",
+      "productImg": "http://localhost:4200/assets/images/29.png",
+      "rating": 2,
+      "reviews": 170,
+      "vendor_name": "seller-4",
+      "warranty": 2,
+      "productColor": "brown"
+    }
+
+
+
+
+  ],
+
+
+
+
+
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "T-shirts"
+    },
+    {
+      "id": 2,
+      "categoryName": "Casual-Shirts"
+    },
+    {
+      "id": 3,
+      "categoryName": "Shirts"
+    },
+    {
+      "id": 4,
+      "categoryName": "Shoes"
+    },
+    {
+      "id": 5,
+      "categoryName": "Denim Trousers"
+    },
+    {
+      "id": 6,
+      "categoryName": "Shorts"
+    }
+  ],
+  "categories-home": [
+    {
+      "id": 1,
+      "categoryName": "T-Shirts",
+      "categoryImg": "http://localhost:4200/assets/images/14.png",
+      "description": "Buy some t-shirts and get 30% discount today.",
+      "categoryButton": "See More"
+    },
+    {
+      "id": 2,
+      "categoryName": "Casual-Shirts",
+      "categoryImg": "http://localhost:4200/assets/images/13.png",
+      "description": "Buy 3 casual-shirts and get one shirt free.",
+      "categoryButton": "See More"
+    },
+    {
+      "id": 3,
+      "categoryName": "Shirts",
+      "categoryImg": "http://localhost:4200/assets/images/15.png",
+      "description": "High quality 80% coton and 20% polyester.",
+      "categoryButton": "See More"
+    },
+    {
+      "id": 4,
+      "categoryName": "Shoes",
+      "categoryImg": "http://localhost:4200/assets/images/16.png",
+      "description": "Buy shoes and get %30 discount today.",
+      "categoryButton": "See More"
+    },
+    {
+      "id": 5,
+      "categoryName": "Denim Trousers",
+      "categoryImg": "http://localhost:4200/assets/images/18.png",
+      "description": "High quality denims for your choice.",
+      "categoryButton": "See More"
+    },
+    {
+      "id": 6,
+      "categoryName": "Shorts",
+      "categoryImg": "http://localhost:4200/assets/images/21.png",
+      "description": "Buy 3 shorts and win tour to singapore.",
+      "categoryButton": "See More"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "upul",
+      "contactNumber": "0786682071",
+      "email": "upulchamara@gmail.com",
+      "message": "dfdeggr",
+      "id": 1
+    }
+  ]
+}

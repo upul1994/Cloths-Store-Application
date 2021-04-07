@@ -1,0 +1,136 @@
+<div class="row">
+<div class="col-lg-2 mt-5">
+  <app-sidebar></app-sidebar>
+</div>
+
+<div class="col-lg-10">
+<div class="container" style="margin-top: 80px">
+<div class="alert alert-success" *ngIf="msg">
+  product added successfully
+</div>
+<h4 class="mb-4 text-warning">Create New Product</h4>
+<form #productAddForm="ngForm" (ngSubmit)="addNewProduct(productAddForm)" >
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="productName">Product Name</label>
+      <input type="text" class="form-control" id="productName"  placeholder="product name" required name="productName" #name1="ngModel"  ngModel >
+
+      <div class="alert alert-danger" *ngIf="!name1.valid">
+        <div *ngIf="name1?.errors?.required">This field is required</div>
+
+      </div>
+
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <label for="categoryId">Category Id</label>
+      <select class="form-control" id="categoryId"  required name="categoryId" #name1="ngModel" ngModel>
+        <option  value="">choose...</option>
+        <option  value="1">1</option>
+        <option  value="2">2</option>
+        <option  value="3">3</option>
+        <option  value="4">4</option>
+        <option  value="5">5</option>
+        <option  value="6">6</option>
+      </select>
+      <div class="alert alert-danger" *ngIf="!name1.valid">
+        <div *ngIf="name1?.errors?.required">This field is required</div>
+
+      </div>
+
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <label for="description">Description</label>
+      <textarea name="description" class="form-control" id="description" placeholder="enter product description" required ngModel #name1="ngModel"></textarea>
+      <div class="alert alert-danger" *ngIf="!name1.valid">
+        <div *ngIf="name1?.errors?.required">This field is required</div>
+
+      </div>
+
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <label for="rating">Rating</label>
+      <select class="form-control" id="rating"  required name="rating" ngModel #name1="ngModel">
+        <option  value="">choose...</option>
+        <option  value="1">1</option>
+        <option  value="2">2</option>
+        <option  value="3">3</option>
+        <option  value="4">4</option>
+        <option  value="5">5</option>
+      </select>
+
+      <div class="alert alert-danger" *ngIf="!name1.valid">
+        <div *ngIf="name1?.errors?.required">This field is required</div>
+
+      </div>
+
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <label for="productColor">Product Color</label>
+      <input type="text" class="form-control" id="productColor" #name1="ngModel"  placeholder="product color" required name="productColor" ngModel>
+
+      <div class="alert alert-danger" *ngIf="!name1.valid">
+        <div *ngIf="name1?.errors?.required">This field is required</div>
+
+      </div>
+
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <label for="isAvailable">Is Available</label>
+      <select class="form-control" id="isAvailable" #name1="ngModel" required name="isAvailable" ngModel>
+        <option  value="">choose...</option>
+        <option  value="yes">yes</option>
+        <option  value="no">no</option>
+      </select>
+
+      <div class="alert alert-danger" *ngIf="!name1.valid">
+        <div *ngIf="name1?.errors?.required">This field is required</div>
+
+      </div>
+
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <label for="productPrice">Product Price</label>
+      <input type="text" class="form-control" id="productPrice" #name1="ngModel"  placeholder="product price" required name="productPrice" ngModel>
+
+      <div class="alert alert-danger" *ngIf="!name1.valid">
+        <div *ngIf="name1?.errors?.required">This field is required</div>
+
+      </div>
+
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <label for="reviews">Reviews</label>
+      <input type="number" class="form-control" id="reviews" #name1="ngModel"  placeholder="reviews" required name="reviews" ngModel>
+
+      <div class="alert alert-danger" *ngIf="!name1.valid">
+        <div *ngIf="name1?.errors?.required">This field is required</div>
+
+      </div>
+
+    </div>
+
+
+      <div class="col-md-6 mb-3">
+        <label class="image-upload-container btn btn-bwm">
+          <span>Select Image</span>
+          <input #imageInput
+                 type="file"
+                 accept="image/*"
+                 (change)="processFile(imageInput)" ngModel name="productImg">
+        </label>
+      </div>
+
+
+  </div>
+  <button class="btn btn-primary mb-5" type="submit" [disabled]="!productAddForm.valid">Add Product</button>
+</form>
+</div>
+</div>
+</div>

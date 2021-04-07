@@ -1,0 +1,70 @@
+<div class="container" style="margin-top: 100px">
+<div class="alert alert-success" *ngIf="msg">
+  product updated successfully
+</div>
+
+<h4 class="mb-4 text-warning">Update Product</h4>
+<form #productAddForm="ngForm" (ngSubmit)="updateProductToNew()" >
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="productName">Product Name</label>
+      <input type="text" class="form-control" id="productName"  placeholder="product name" required name="productName" [(ngModel)]="viewProductList.productName">
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <label for="categoryId">Category Id</label>
+      <input type="text" class="form-control" id="categoryId"  placeholder="category id" required name="categoryId" [(ngModel)]="viewProductList.categoryId">
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <label for="description">Description</label>
+      <textarea name="description" class="form-control" id="description" placeholder="enter product description" required [(ngModel)]="viewProductList.description"></textarea>
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <label for="rating">Rating</label>
+      <select class="form-control" id="rating"  required name="rating" [(ngModel)]="viewProductList.rating">
+        <option  value="">choose...</option>
+        <option  value="1">1</option>
+        <option  value="2">2</option>
+        <option  value="3">3</option>
+        <option  value="4">4</option>
+        <option  value="5">5</option>
+      </select>
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <label for="productColor">Product Color</label>
+      <input type="text" class="form-control" id="productColor"  placeholder="product color" required name="productColor" [(ngModel)]="viewProductList.productColor">
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <label for="isAvailable">Is Available</label>
+      <select class="form-control" id="isAvailable"  required name="isAvailable" [(ngModel)]="viewProductList.isAvailable">
+        <option  value="">choose...</option>
+        <option  value="yes">yes</option>
+        <option  value="no">no</option>
+        <
+      </select>
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <label for="productPrice">Product Price</label>
+      <input type="text" class="form-control" id="productPrice"  placeholder="product price" required name="productPrice" [(ngModel)]="viewProductList.price">
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <label for="reviews">Reviews</label>
+
+        <label for="reviews">Reviews</label>
+        <input type="number" class="form-control" id="reviews"  placeholder="reviews" required name="reviews" [(ngModel)]="viewProductList.reviews">
+
+
+    </div>
+
+
+  </div>
+  <button class="btn btn-primary mb-5" type="submit">Update Product</button>
+</form>
+
+</div>

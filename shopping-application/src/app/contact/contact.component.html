@@ -1,0 +1,91 @@
+<div class="container-fluid">
+<div class="row mt-5 mb-5">
+
+  <div class="col-md-2">
+
+    <app-sidebar></app-sidebar>
+
+  </div>
+
+
+
+  <div class="col-lg-10 mt-4">
+    <div class="container">
+<h3 class="text-center text-warning">Contact Us</h3>
+      <div class="row">
+
+      <div class="col-lg-2">
+
+
+      </div>
+      <div class="col-lg-8">
+        <form #contactform="ngForm" (ngSubmit)="addContact(contactform)" >
+          <div class="form-group">
+
+
+
+            <label for="exampleInputName">Name</label>
+            <input type="text" class="form-control" id="exampleInputName" placeholder="your name*" name="name" #name1="ngModel" ngModel required minlength="3">
+
+            <div class="alert alert-danger" *ngIf="!name1.valid">
+              <div *ngIf="name1?.errors?.required">This field is required</div>
+              <div *ngIf="name1?.errors?.minlength">Enter atleast 3 characters.</div>
+            </div>
+
+          </div>
+          <div class="form-group">
+            <label for="exampleInputNumber">Contact Number</label>
+            <input type="text" class="form-control" id="exampleInputNumber" name="contactNumber" placeholder="your contact number*"  #name2="ngModel" ngModel required minlength="10">
+
+            <div class="alert alert-danger" *ngIf="!name2.valid">
+              <div *ngIf="name2?.errors?.required">This field is required</div>
+              <div *ngIf="name2?.errors?.minlength">Enter atleast 10 characters valid number</div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleInputEmail">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail" name="email" placeholder="your email*"  #name3="ngModel" ngModel required email>
+
+            <div class="alert alert-danger" *ngIf="!name3.valid">
+              <div *ngIf="name3?.errors?.required">This field is required</div>
+              <div *ngIf="name3?.errors?.email">Enter valid email address</div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleInputMessage">Message</label>
+          <textarea class="form-control" name="message" id="exampleInputMessage"  cols="90" rows="10" placeholder="enter your message*" #name4="ngModel" ngModel required></textarea>
+
+            <div class="alert alert-danger" *ngIf="!name4.valid">
+              <div *ngIf="name4?.errors?.required">This field is required</div>
+
+            </div>
+
+
+
+          </div>
+
+          <div *ngIf="msg" class="alert alert-success alert-dismissible fade show" role="alert">
+           <strong> Thank You!!!</strong> your message was recoded,our officer will contact you soon...
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <button type="submit" class="btn btn-primary" [disabled]="!contactform.valid">Submit</button>
+        </form>
+
+      </div>
+      <div class="col-lg-2">
+
+
+      </div>
+
+
+
+  </div>
+    </div>
+  </div>
+</div>
+</div>
